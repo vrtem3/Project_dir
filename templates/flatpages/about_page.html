@@ -1,0 +1,7 @@
+{% extends 'flatpages/default.html' %}  <!-- берем текст из другого html-файла по указанному пути -->
+
+{% block content %}
+{{ flatpage.content }}
+<hr>
+<em><font size="3" face="Georgia">Какой-то текст, который написан другим шрифтом и размером.</font></em>
+{% endblock content %}
